@@ -1,0 +1,21 @@
+{
+  "minimum-stability": "stable",
+  "require": {
+    "monolog/monolog": "^2.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "lib\\":"lib/",
+      "Commands\\":"Commands/",
+      "App\\":"app/"
+    }
+  },
+  "name": "Ert telegram-bot",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ert Telegram Bot",
+      "role": "Developer"
+    }
+  ]
+}
